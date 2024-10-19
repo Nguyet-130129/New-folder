@@ -1,0 +1,55 @@
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Properties.Resources.resources
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+C:\Users\Antho\Desktop\c#\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GUI.Home.resources
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GUI.Home.resources
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Properties.Resources.resources
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\EPPlus.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\EPPlus.Interfaces.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\EPPlus.System.Drawing.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinForms.E4050A35.Up2Date
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\ExcelDataReader.dll
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GUI.nhanviengui.resources
+C:\Users\Antho\Desktop\New folder\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GUI.thongbaogui.resources
