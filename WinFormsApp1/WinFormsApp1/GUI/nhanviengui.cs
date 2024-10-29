@@ -17,11 +17,53 @@ using System.Drawing;
 using System.Windows.Forms;
 using OfficeOpenXml;
 using ExcelDataReader;
+using WinFormsApp1.BUS;
+using WinFormsApp1.DTO;
+
+//using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WinFormsApp1.GUI
 {
     public partial class nhanviengui : UserControl
     {
+        //tham chieu
+        static nhanvienbus employeeBUS = new nhanvienbus();
+        nhanviendto employeeDTO = new nhanviendto();
+        List<nhanviendto> employees = employeeBUS.GetNhanVien();
+
+
+        private void LoadDataToGUI()
+        {
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Check", typeof(bool));
+            dt.Columns.Add("Ma Nhan Vien", typeof(string));
+            dt.Columns.Add("Ho Ten", typeof(string));
+            dt.Columns.Add("Ngay sinh", typeof(string));
+            dt.Columns.Add("Gioi tinh", typeof(string));
+            dt.Columns.Add("Dia chi", typeof(string));
+            dt.Columns.Add("Email", typeof(string));
+            dt.Columns.Add("SDT", typeof(string));
+            dt.Columns.Add("Nguoi quan ly", typeof(string));
+            dt.Columns.Add("Phong Ban", typeof(string));
+            dt.Columns.Add("Chuc vu", typeof(string));
+            dt.Columns.Add("Trang Thai", typeof(int));
+
+            foreach (nhanviendto employee in employees)
+            {
+
+
+
+                //string[] row = { false, employee.MaNhanVien, employee.HoTen,employee.NgaySinh.ToString(), employee.GioiTinh, employee.DiaChi, employee.Email, employee.SDT, employee.NguoiQuanLy, employee.PhongBan, employee.ChucVu, employee.TrangThai.ToString() };
+                dt.Rows.Add( false, employee.MaNhanVien, employee.HoTen, employee.NgaySinh.ToString(), employee.GioiTinh, employee.DiaChi, employee.Email, employee.SDT, employee.NguoiQuanLy, employee.PhongBan, employee.ChucVu, employee.TrangThai.ToString() );
+                //dt.Rows.Add(row);
+
+                //listView1.Items.Add(new ListViewItem(row));
+            }
+            dataGridView1.DataSource = dt;
+        }
+
+
+
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
 
 
@@ -304,7 +346,7 @@ namespace WinFormsApp1.GUI
             // 
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView1.BackgroundColor = Color.FromArgb(252, 250, 255);
+            dataGridView1.BackgroundColor = Color.White;
             dataGridView1.BorderStyle = BorderStyle.None;
             dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.None;
             dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
@@ -341,6 +383,7 @@ namespace WinFormsApp1.GUI
             // 
             // flowLayoutPanel1
             // 
+            flowLayoutPanel1.BackColor = Color.White;
             flowLayoutPanel1.Controls.Add(button1);
             flowLayoutPanel1.Controls.Add(button2);
             flowLayoutPanel1.Controls.Add(button3);
@@ -398,11 +441,10 @@ namespace WinFormsApp1.GUI
             button3.TabIndex = 2;
             button3.Text = "Đã nghỉ";
             button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
             // 
             // panel2
             // 
-            panel2.BackColor = Color.FromArgb(252, 250, 255);
+            panel2.BackColor = Color.White;
             panel2.Controls.Add(panel6);
             panel2.Controls.Add(label1);
             panel2.Controls.Add(panel3);
@@ -416,7 +458,7 @@ namespace WinFormsApp1.GUI
             // panel6
             // 
             panel6.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            panel6.BackColor = Color.FromArgb(252, 250, 255);
+            panel6.BackColor = Color.White;
             panel6.Controls.Add(button5);
             panel6.Controls.Add(button6);
             panel6.Controls.Add(export);
@@ -524,7 +566,8 @@ namespace WinFormsApp1.GUI
             // 
             // nhanviengui
             // 
-            BackColor = Color.FromArgb(252, 250, 255);
+            AutoSize = true;
+            BackColor = Color.White;
             Controls.Add(panel1);
             ForeColor = Color.FromArgb(49, 17, 117);
             Name = "nhanviengui";
@@ -547,7 +590,7 @@ namespace WinFormsApp1.GUI
 
         private void nhanviengui_Load(object? sender, EventArgs e)
         {
-            button6_Click(sender, e);
+            LoadDataToGUI();
             dataGridView1.Size = new Size(1575, 870);
             panel7.Visible = false;
             panel4.Width = button1.Width;
@@ -646,38 +689,7 @@ namespace WinFormsApp1.GUI
 
         private void button6_Click(object sender, EventArgs e)
         {
-            DataTable dtSinhVien = new DataTable();
-
-            // Thêm các cột vào DataTable
-            dtSinhVien.Columns.Add("Column1", typeof(bool));
-            dtSinhVien.Columns.Add("ID", typeof(string));
-            dtSinhVien.Columns.Add("Họ tên", typeof(string));
-            dtSinhVien.Columns.Add("Phòng ban", typeof(string));
-            dtSinhVien.Columns.Add("Năm sinh", typeof(string));
-            dtSinhVien.Columns.Add("Địa chỉ", typeof(string));
-            dtSinhVien.Columns.Add("Giới tính", typeof(string));
-            dtSinhVien.Columns.Add("Email", typeof(string));
-
-
-
-            dtSinhVien.Rows.Add(false, "E001", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
-            dtSinhVien.Rows.Add(false, "E002", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
-            dtSinhVien.Rows.Add(false, "E003", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
-            dtSinhVien.Rows.Add(false, "E004", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
-            dtSinhVien.Rows.Add(false, "E005", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
-            dtSinhVien.Rows.Add(false, "E006", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
-            dtSinhVien.Rows.Add(false, "E007", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
-            dtSinhVien.Rows.Add(false, "E008", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
-
-
-            // Thêm một hàng nữa bằng cách truyền trực tiếp giá trị vào
-
-
-
-
-            // Gán DataTable làm nguồn dữ liệu cho DataGridView
-            //dataGridView1.AutoGenerateColumns = false;
-            dataGridView1.DataSource = dtSinhVien;
+            //LoadDataToGUI();
 
 
 
@@ -706,6 +718,41 @@ namespace WinFormsApp1.GUI
         {
 
         }
+
+        //private void display() {
+        //    DataTable dtSinhVien = new DataTable();
+
+        //    // Thêm các cột vào DataTable
+        //    dtSinhVien.Columns.Add("Column1", typeof(bool));
+        //    dtSinhVien.Columns.Add("ID", typeof(string));
+        //    dtSinhVien.Columns.Add("Họ tên", typeof(string));
+        //    dtSinhVien.Columns.Add("Phòng ban", typeof(string));
+        //    dtSinhVien.Columns.Add("Năm sinh", typeof(string));
+        //    dtSinhVien.Columns.Add("Địa chỉ", typeof(string));
+        //    dtSinhVien.Columns.Add("Giới tính", typeof(string));
+        //    dtSinhVien.Columns.Add("Email", typeof(string));
+
+
+
+        //    dtSinhVien.Rows.Add(false, "E001", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
+        //    dtSinhVien.Rows.Add(false, "E002", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
+        //    dtSinhVien.Rows.Add(false, "E003", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
+        //    dtSinhVien.Rows.Add(false, "E004", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
+        //    dtSinhVien.Rows.Add(false, "E005", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
+        //    dtSinhVien.Rows.Add(false, "E006", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
+        //    dtSinhVien.Rows.Add(false, "E007", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
+        //    dtSinhVien.Rows.Add(false, "E008", "Nguyễn Văn A", "Kỹ thuật", "20.07.2001", "273 An Dương Vương quận 5", "Nam", "nguyenvana@gmail.com");
+
+
+        //    // Thêm một hàng nữa bằng cách truyền trực tiếp giá trị vào
+
+
+
+
+        //    // Gán DataTable làm nguồn dữ liệu cho DataGridView
+        //    //dataGridView1.AutoGenerateColumns = false;
+        //    dataGridView1.DataSource = dtSinhVien;
+        //}
     }
 
 }

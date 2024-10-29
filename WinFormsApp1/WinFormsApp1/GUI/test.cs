@@ -20,7 +20,7 @@ using ExcelDataReader;
 
 namespace WinFormsApp1.GUI
 {
-    public partial class thongbaogui : UserControl
+    public partial class test : UserControl
     {
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
 
@@ -35,7 +35,7 @@ namespace WinFormsApp1.GUI
             int nHeightEllipse
         );
 
-        public thongbaogui()
+        public test()
         {
             InitializeComponent();
             Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));

@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class Form1
+    partial class index
     {
         /// <summary>
         ///  Required designer variable.
@@ -317,24 +317,26 @@
             // 
             // panel3
             // 
+            panel3.AutoSize = true;
             panel3.BackColor = Color.Navy;
             panel3.Dock = DockStyle.Top;
             panel3.Location = new Point(186, 0);
             panel3.Margin = new Padding(0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(1698, 1100);
+            panel3.Size = new Size(1698, 0);
             panel3.TabIndex = 1;
             panel3.Paint += panel3_Paint;
             // 
-            // Form1
+            // index
             // 
             AutoScaleDimensions = new SizeF(11F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
             BackColor = Color.FromArgb(46, 51, 73);
             ClientSize = new Size(1884, 1053);
             Controls.Add(panel3);
             Controls.Add(panel1);
-            Name = "Form1";
+            Name = "index";
             Text = "Form1";
             Load += Form1_Load;
             panel1.ResumeLayout(false);
@@ -342,6 +344,7 @@
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Antho\\Desktop\\New folder\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "D:\\T5 - C#\\duphong\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Antho\\Desktop\\New folder\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "D:\\T5 - C#\\duphong\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Antho\\Desktop\\New folder\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "D:\\T5 - C#\\duphong\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "C:\\Users\\Antho\\Desktop\\New folder\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectPath": "D:\\T5 - C#\\duphong\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\Antho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Antho\\Desktop\\New folder\\WinFormsApp1\\WinFormsApp1\\obj\\",
+        "outputPath": "D:\\T5 - C#\\duphong\\WinFormsApp1\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,6 +52,10 @@
             "ExcelDataReader": {
               "target": "Package",
               "version": "[3.7.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
@@ -73,7 +77,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

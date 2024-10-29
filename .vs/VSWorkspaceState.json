@@ -3,9 +3,10 @@
     "",
     "\\WinFormsApp1",
     "\\WinFormsApp1\\WinFormsApp1",
+    "\\WinFormsApp1\\WinFormsApp1\\connect",
     "\\WinFormsApp1\\WinFormsApp1\\design",
     "\\WinFormsApp1\\WinFormsApp1\\GUI"
   ],
-  "SelectedNode": "\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+  "SelectedNode": "\\WinFormsApp1\\WinFormsApp1\\GUI\\nhanviengui.cs",
   "PreviewInSolutionExplorer": false
 }

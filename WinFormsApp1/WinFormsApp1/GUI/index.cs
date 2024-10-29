@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 using WinFormsApp1.GUI;
 namespace WinFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class index : Form
     {
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
 
@@ -25,7 +25,7 @@ namespace WinFormsApp1
 
 
 
-        public Form1()
+        public index()
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
@@ -77,10 +77,7 @@ namespace WinFormsApp1
             panNav.Top = phongban.Top;
             panNav.Left = phongban.Left;
             phongban.BackColor = Color.FromArgb(46, 51, 73);
-            GUI.Home usctr = new GUI.Home();
-            Controls.Add(usctr);
-            usctr.BringToFront();
-            usctr.Location = new System.Drawing.Point(186, 0);
+            
         }
         private void duan_Click(object sender, EventArgs e)
         {
@@ -104,10 +101,7 @@ namespace WinFormsApp1
             panNav.Top = thongbao.Top;
             panNav.Left = thongbao.Left;
             thongbao.BackColor = Color.FromArgb(46, 51, 73);
-            thongbaogui usctr = new thongbaogui();
-            Controls.Add(usctr);
-            usctr.BringToFront();
-            usctr.Location = new System.Drawing.Point(186, 0);
+            
         }
 
         private void baohiem_Click(object sender, EventArgs e)

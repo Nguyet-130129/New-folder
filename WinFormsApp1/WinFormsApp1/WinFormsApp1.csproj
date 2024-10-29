@@ -25,11 +25,14 @@
 
   <ItemGroup>
     <Folder Include="design\" />
+    <Folder Include="DTO\" />
+    <Folder Include="BUS\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="EPPlus" Version="7.4.1" />
     <PackageReference Include="ExcelDataReader" Version="3.7.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
 </Project>
